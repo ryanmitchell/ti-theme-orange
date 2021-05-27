@@ -19,10 +19,10 @@ mix.setPublicPath('./').options({
 // Copy fonts from node_modules
 //
 mix.copyDirectory(
-    'node_modules/@fortawesome/fontawesome-free/webfonts',
+    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts',
     'assets/fonts/FontAwesome'
 ).copyDirectory(
-    'node_modules/@fortawesome/fontawesome-free/scss',
+    'node_modules/@fortawesome/fontawesome-free-webfonts/scss',
     'assets/src/scss/vendor/FontAwesome'
 ).copyDirectory(
     'node_modules/bootstrap/scss',
@@ -68,7 +68,6 @@ mix.copy(
 //         '../../core/app/system/assets/ui/flame.js',
 //         'assets/src/js/vendor/select2.min.js',
 //         'assets/src/js/vendor/jquery.raty.js',
-//         'assets/src/js/vendor/affix.js',
 //         'assets/src/js/app.js',
 //     ],
 //     'assets/js/app.js')
